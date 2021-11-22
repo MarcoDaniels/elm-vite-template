@@ -1,0 +1,19 @@
+{
+  "name": "elm-vite-template",
+  "description": "Template to build Elm applications using Vite",
+  "author": "Marco Daniel Martins <marcodanielmartins@gmail.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "elm-tooling install",
+    "prebuild": "elm-tooling install",
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "elm-tooling": "1.6.0",
+    "vite": "2.6.14",
+    "vite-plugin-elm": "2.5.0"
+  }
+}
